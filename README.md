@@ -1,12 +1,12 @@
-Course: CSE473s: Computational Intelligence (Fall 2025)
-
-University: Ain Shams University, Faculty of Engineering
-
-Project Overview
+**Course: CSE473s: Computational Intelligence (Fall 2025)
+**
+**University: Ain Shams University, Faculty of Engineering
+**
+# Project Overview
 
 This project implements a modular Deep Learning library from scratch using only Python and NumPy. The goal is to demystify the internal mechanics of neural networks by implementing forward propagation, backpropagation (Gradient Descent), and various activation/loss functions manually.
 
-Features
+# Features
 
 Modular Design: Layers, Activations, Losses, and Optimizers are separate classes.
 
@@ -19,7 +19,7 @@ Losses: Mean Squared Error (MSE).
 Optimization: Stochastic Gradient Descent (SGD).
 
 
-To run the XOR demo and Gradient Checking:
+# To run the XOR demo and Gradient Checking:
 
 Navigate to the notebooks folder.
 
