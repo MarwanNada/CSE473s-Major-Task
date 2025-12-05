@@ -1,5 +1,6 @@
 **Course: CSE473s: Computational Intelligence (Fall 2025)
-****University: Ain Shams University, Faculty of Engineering
+**
+**University: Ain Shams University, Faculty of Engineering
 **
 # Project Overview
 
