@@ -19,14 +19,14 @@ Optimization: Stochastic Gradient Descent (SGD).
 
 # To run the XOR demo and Gradient Checking:
 
-Navigate to the notebooks folder.
+1-Navigate to the notebooks folder.
 
-Open project_demo.ipynb.
+2-Open project_demo.ipynb.
 
-Run all cells to see the library in action.
+3-Run all cells to see the library in action.
 
-Results:
+# Results:
 
-Gradient Checking: Validated numerical vs. analytical gradients with < 1e-7 error.
+1-Gradient Checking: Validated numerical vs. analytical gradients with < 1e-7 error.
 
-XOR Problem: Successfully solved the XOR non-linear classification task using a 2-4-1 architecture.
+2-XOR Problem: Successfully solved the XOR non-linear classification task using a 2-4-1 architecture.
