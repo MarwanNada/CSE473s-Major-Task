@@ -11,7 +11,7 @@ class Activation(Layer):
         self.output = self.activation(self.input)
         return self.output
 
-    def backward(self, output_gradient, learning_rate):
+    def backward(self, output_gradient):
         """
         The backward pass:
         dL/dX = dL/dY * f'(X)
@@ -24,7 +24,7 @@ class Activation(Layer):
     def activation_prime(self, x):
         raise NotImplementedError
 
-
+'''
 class Sigmoid(Activation):
    
     def activation(self, x):
@@ -36,6 +36,14 @@ class Sigmoid(Activation):
         # f'(x) = f(x) * (1 - f(x))
         s = self.activation(x)
         return s * (1 - s)
+'''
+class Sigmoid(Activation):
+    def activation(self, x):
+        x = np.clip(x, -500, 500)
+        return 1 / (1 + np.exp(-x))
+
+    def backward(self, output_gradient):
+        return output_gradient * self.output * (1 - self.output)
 
 
 class Tanh(Activation):
@@ -68,7 +76,7 @@ class Softmax(Layer):
         self.output = tmp / np.sum(tmp, axis=1, keepdims=True)
         return self.output
 
-    def backward(self, output_gradient, learning_rate):
+    def backward(self, output_gradient):
         
         # dL/dX = Y * (dL/dY - sum(dL/dY * Y))
         
