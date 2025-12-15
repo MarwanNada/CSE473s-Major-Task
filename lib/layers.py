@@ -56,10 +56,4 @@ class Dense(Layer):
         # dL/dX = dL/dY . W^T
         input_gradient = np.dot(output_gradient, self.weights.T)
 
-        # 3. Update Parameters
-        # W = W - learning_rate * dW
-        self.weights -= learning_rate * weights_gradient
-        # B = B - learning_rate * dB
-        self.bias -= learning_rate * bias_gradient
-
         return input_gradient
