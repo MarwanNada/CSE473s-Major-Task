@@ -19,20 +19,33 @@ Beyond the core library, the project demonstrates advanced applications includin
 
 # Repository Structure
 
-.
-├── lib/                    # Source code for the library
-│   ├── __init__.py
-│   ├── layers.py           # Dense layer implementation (Forward/Backward)
-│   ├── activations.py      # Sigmoid, Tanh, ReLU, etc.
-│   ├── losses.py           # MSE loss logic
-│   ├── optimizer.py        # SGD optimizer (Weight updates)
-│   └── network.py          # Network container class
-├── notebooks/
-│   └── project_demo.ipynb  # Main Demo: XOR, Autoencoder, SVM, & TF Comparison
-├── report/
-│   └── project_report.pdf  # Final PDF Report
-├── .gitignore
-└── README.md
+> .
+> 
+> ├── lib/                    # Source code for the library
+> 
+> │   ├── __init__.py
+> 
+> │   ├── layers.py           # Dense layer implementation (Forward/Backward)
+> 
+> │   ├── activations.py      # Sigmoid, Tanh, ReLU, etc.
+> 
+> │   ├── losses.py           # MSE loss logic
+> 
+> │   ├── optimizer.py        # SGD optimizer (Weight updates)
+> 
+> │   └── network.py          # Network container class
+> 
+> ├── notebooks/
+> 
+> │   └── project_demo.ipynb  # Main Demo: XOR, Autoencoder, SVM, & TF Comparison
+> 
+> ├── report/
+> 
+> │   └── project_report.pdf  # Final PDF Report
+> 
+> ├── .gitignore
+> 
+> └── README.md
 
 
 # Getting Started
