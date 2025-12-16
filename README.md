@@ -1,3 +1,4 @@
+# **Course:** CSE473s: Computational Intelligence (Fall 2025)
 # Project Overview
 
 This project implements a modular Deep Learning library from scratch using only Python and NumPy. The goal is to demystify the internal mechanics of neural networks by implementing forward propagation, backpropagation (Gradient Descent), and various activation/loss functions manually.
